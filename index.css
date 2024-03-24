@@ -1,20 +1,36 @@
-ul {
-    :hover{
-    background-color: blue;
-    }
-    list-style-type: none;
-    display: inline-flex;
-    margin: auto;
-    padding: 0;
+.navbar{
+    width: calc(100% - 10px);
+    border: 1px solid pink;
+    overflow: hidden;
+    background-color: rgb(250, 250, 250);
+  }
+
+.navbar a {
+        float: left;
+        display: block;
+        color: rgb(246, 154, 171);
+        text-align: center;
+        padding: 4px 6px;
+        text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: pink;
+    color: white;
+  }
+
+h1 { 
+    background-color: pink;
+}
+
+.header :hover {
+    background-color: white;
+    color: pink;
+    transition-delay: 3s;
 }
 
 body {
     color: white;
     text-align: center;
-    background-color: black;
-}
-
-button {
     background-color: aqua;
-    border-color:paleturquoise ;
 }
